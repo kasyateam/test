@@ -17,7 +17,6 @@ if (window.location.hash == '#1'){
     window.location.href = './index'
 }
 
-document.getElementById('head').innerHTML = 'Курсы по программированию'
 
 
 
@@ -30,6 +29,8 @@ document.body.innerHTML = '<main id="main" onload="ok()"><div id="load"><div id=
 
 
 //Формирование раздела
+
+document.getElementById('head').innerHTML = 'Курсы по программированию'
 
 //автофункция OFF
 if (info_t == ''){
