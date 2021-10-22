@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="kasya_UI.css"></link>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@font-face {
+    font-family: "font";
+    src: url("k-font.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+</style>
+</head>
+
+<body onload="ok()">
+<div id="load"><div id="load_1"><img id="load_2" src="load.gif">
+    <script src="kasya_UI.js"></script>
+    <script>
+function error(){
+    document.getElementById('load_1').innerHTML = document.getElementById('load_1').innerHTML+'<br>Загрузка дольше, чем обычно..'
+}
+setTimeout(error, 8000)
+    </script>
+</body>
+
+</html>
