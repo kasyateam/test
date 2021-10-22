@@ -45,7 +45,7 @@ if (on == 1){
 
 
 //Для K.Feed m
-if (window.location.pathname == '/m/index'){
+if (window.location.pathname == '/k.feed/k-feed'){
 
     document.title = 'K.Feed | Главная';
     document.getElementById('index-date').innerHTML = 'Добро пожаловать';
@@ -60,7 +60,7 @@ if (window.location.pathname == '/m/index'){
 
 
 
-}else if(window.location.pathname == '/m/k-feed'){
+}else if(window.location.pathname == '/k.feed/k-feed#1'){
 
     var post_info = '<center><img style="width: 40%" src="https://kasyateam.github.io/assets/img/kasya_stick.png" alt="K.Feed"><img style="width: 60%; border-radius: 20px;" src="https://kasyateam.github.io/assets/img/QR-download.png" alt="K.Feed"></center>'
     document.title = 'K.Feed';
@@ -70,7 +70,7 @@ if (window.location.pathname == '/m/index'){
 
 
 
-}else if(window.location.pathname == '/m/kasya-id'){
+}else if(window.location.pathname == '/k.feed/k-feed#2'){
 
     document.title = 'K.Feed | Kasya ID';
     document.body.innerHTML = '<main>'+head+post+del+uved+'</main>'    
@@ -84,7 +84,7 @@ if (window.location.pathname == '/m/index'){
         document.getElementById('kasyaid').innerHTML = 'Что делать, если вы забыли пароль? <br/><br/>При такой ситуации, так же обратитесь в поддержку, если вход не совершен. <br/><br/>Если у вас совершен вход, но чувствуете, что забыли пароль, то перейдите в раздел "Kasya ID", где можете запросить сброс-ссылку.'
     }
 
-}else if(window.location.pathname == '/m/kmp'){
+}else if(window.location.pathname == '/k.feed/k-feed#3'){
 
     var head = 'Курсы программирования'
     document.title = 'K.Feed | Курсы';
