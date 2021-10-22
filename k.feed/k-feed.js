@@ -1,6 +1,3 @@
-window.location.hash
-
-
 //Уведомления
 var info_h = 'Обновление K.Feed'
 var info_t = 'Демонстрация Kasya UI третьего поколения<br>Вам скоро будет необхожимо обновить приложение'
@@ -19,7 +16,7 @@ if (window.location.hash == '#1'){
     var post = ''
     var news = ''
 }else{
-    window.location.href = '/index'
+    window.location.href = './index'
 }
 
 
